@@ -14,6 +14,7 @@ import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.border.Border;
+import java.util.Scanner;
  
 /**
  *
@@ -197,6 +198,7 @@ public class Game extends javax.swing.JFrame {
     
     
     public void displayImage(String imgPath, JLabel label) {
+        
     URL location = getClass().getResource(imgPath);
     if (location == null) {
         System.err.println("Error: Image resource not found at " + imgPath);
