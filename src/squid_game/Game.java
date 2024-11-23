@@ -59,7 +59,7 @@ public class Game extends javax.swing.JFrame {
         // center this form
         this.setLocationRelativeTo(null);
         
-            // set borders
+        
         jPanel_Start.setBorder(black_border);
         jPanel_Final.setBorder(black_border);
         jLabel_PlayerStart.setBorder(black_border);
