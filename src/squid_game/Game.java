@@ -60,7 +60,10 @@ public class Game extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         
         
-    
+        jPanel_Start.setBorder(black_border);
+        jPanel_Final.setBorder(black_border);
+        jLabel_PlayerStart.setBorder(black_border);
+        jLabel_PlayerFinal.setBorder(black_border);
         
                 // set image
         displayImage(footsteps,jLabel_PlayerStart);
@@ -72,8 +75,7 @@ public class Game extends javax.swing.JFrame {
         
         
         // add images to the list
-        list.add(footsteps);
-        list.add(cracks);
+ 
         
          // get component from jpanels
         comp1 = jPanel2.getComponents();
