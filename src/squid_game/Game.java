@@ -60,14 +60,6 @@ public class Game extends javax.swing.JFrame {
         this.setLocationRelativeTo(null);
         
         
-        jPanel_Start.setBorder(black_border);
-        jPanel_Final.setBorder(black_border);
-        jLabel_PlayerStart.setBorder(black_border);
-        jLabel_PlayerFinal.setBorder(black_border);
-        
-                // set image
-        displayImage(footsteps,jLabel_PlayerStart);
-        
           // add jlabels to the labels table
         labels = new JLabel[][]{{jLabel_1_1,jLabel_1_2},{jLabel_2_1,jLabel_2_2},
                                 {jLabel_3_1,jLabel_3_2},{jLabel_4_1,jLabel_4_2},
