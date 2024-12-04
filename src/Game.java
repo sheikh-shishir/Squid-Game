@@ -227,8 +227,6 @@ public class Game extends javax.swing.JFrame {
         }
     }
     
-    
-    
     public void displayImage(String imgPath, JLabel label) {
         
     URL location = getClass().getResource(imgPath);
