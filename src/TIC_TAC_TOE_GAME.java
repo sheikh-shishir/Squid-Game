@@ -724,6 +724,32 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         WinningGame();
     }                                       
 
+    private void txtresetActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        // TODO add your handling code here:
+        txtbtn1.setText(null);
+        txtbtn2.setText(null);
+        txtbtn3.setText(null);
+        
+        txtbtn4.setText(null);
+        txtbtn5.setText(null);
+        txtbtn6.setText(null);
+        
+        txtbtn7.setText(null);
+        txtbtn8.setText(null);
+        txtbtn9.setText(null);
+        
+        txtbtn1.setBackground(Color.white);
+        txtbtn2.setBackground(Color.white);
+        txtbtn3.setBackground(Color.white);
+        
+        txtbtn4.setBackground(Color.white);
+        txtbtn5.setBackground(Color.white);
+        txtbtn6.setBackground(Color.white);
+        
+        txtbtn7.setBackground(Color.white);
+        txtbtn8.setBackground(Color.white);
+        txtbtn9.setBackground(Color.white);
+    }                                        
 
 
 
