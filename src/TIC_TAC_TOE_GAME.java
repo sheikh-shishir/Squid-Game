@@ -645,3 +645,82 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         WinningGame();
     }                                       
 
+    private void txtbtn4ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn4.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn4.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn4.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
+    private void txtexitActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        JFrame frame = new JFrame("Exit");
+        
+        if(JOptionPane.showConfirmDialog(frame, "Confirm if you want to Exit",
+                "Tic Tac Toe", JOptionPane.YES_NO_OPTION)==JOptionPane.YES_NO_OPTION)
+        {
+            System.exit(0);
+        }
+    }                                       
+
+    private void txtbtn8ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn8.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn8.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn8.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
+    private void txtbtn7ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn7.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn7.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn7.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
+    private void txtbtn9ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn9.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn9.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn9.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
