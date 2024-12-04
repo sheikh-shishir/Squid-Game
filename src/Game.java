@@ -138,4 +138,51 @@ public class Game extends javax.swing.JFrame {
 
     
     // a function to add actions to jLabels when we click
-   
+    public void addAction()
+    {
+        
+        enableLabels(counter);
+                
+        for (Component comp: comp1)
+        {
+            if(comp instanceof JLabel)
+            {
+                JLabel label = (JLabel) comp;
+                label.addMouseListener(new java.awt.event.MouseAdapter() {
+                    public void mouseClicked(java.awt.event.MouseEvent evt)
+                    {
+                        if(label.isEnabled())
+                        {
+                            
+                        displayImage(imagesOrder[counter][1],label);
+                        if(imagesOrder[counter][1].equals(cracks))
+                        {
+                            won = false;
+                        }
+                        
+                        //disable jlabel
+                        label.setEnabled(false);
+                        JLabel label = (JLabel) comp2[counter];
+                        label.setEnabled(false);
+                        
+                        if(counter == imagesOrder.length-1 && won == true)
+                        {
+                            displayImage(footsteps,jLabel_PlayerFinal);
+                            jLabel_message.setText("You have won, 축하해요");
+                        }else if(won == false)
+                        {
+                            jLabel_message.setText("You have lost, 다시 시도");
+                        }
+                            
+                        counter++;
+                        enableLabels(counter);
+                        }
+                        
+                    }
+                    
+                    
+                });
+                
+            }
+        }
+        
