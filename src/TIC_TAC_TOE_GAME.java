@@ -560,3 +560,54 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>                        
 
+    private void txtbtn3ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn3.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn3.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn3.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
+    private void txtbtn2ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn2.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn2.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn2.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
+    private void txtbtn1ActionPerformed(java.awt.event.ActionEvent evt) {                                        
+        // TODO add your handling code here:
+        
+        txtbtn1.setText(startGame);
+        
+        if(startGame.equalsIgnoreCase("X"))
+        {
+            txtbtn1.setForeground(Color.red);
+        }
+        else
+        {
+            txtbtn1.setForeground(Color.magenta);
+        }
+        choose_a_Player();
+        WinningGame();
+    }                                       
+
