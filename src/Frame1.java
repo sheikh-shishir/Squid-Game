@@ -90,3 +90,35 @@ public class Frame1 extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+
+        jButton2.setBackground(new java.awt.Color(0, 0, 0));
+        jButton2.setFont(new java.awt.Font("Viner Hand ITC", 1, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setText("CREDITS");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 212, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(362, 362, 362))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, 955, Short.MAX_VALUE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 955, Short.MAX_VALUE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 955, Short.MAX_VALUE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, 955, Short.MAX_VALUE))
+                .addContainerGap())
+        );
