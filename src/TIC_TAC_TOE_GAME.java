@@ -724,3 +724,28 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         WinningGame();
     }                                       
 
+
+
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JLabel playero;
+    private javax.swing.JLabel playerooo;
+    private javax.swing.JLabel playerx;
+    private javax.swing.JLabel playerxxx;
+    private javax.swing.JButton txtbtn1;
+    private javax.swing.JButton txtbtn2;
+    private javax.swing.JButton txtbtn3;
+    private javax.swing.JButton txtbtn4;
+    private javax.swing.JButton txtbtn5;
+    private javax.swing.JButton txtbtn6;
+    private javax.swing.JButton txtbtn7;
+    private javax.swing.JButton txtbtn8;
+    private javax.swing.JButton txtbtn9;
+    private javax.swing.JButton txtexit;
+    private javax.swing.JButton txtreset;
+    // End of variables declaration                   
+}
