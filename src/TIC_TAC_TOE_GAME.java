@@ -167,6 +167,62 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             game.setVisible(true);
             dispose();
         }
+        //Player O Coding
+        if(b1 == ("O") && b2 == ("O") && b3 == ("O"))
+        {
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
+                    JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore();
+            txtbtn1.setBackground(Color.orange);
+            txtbtn2.setBackground(Color.orange);
+            txtbtn3.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
+        }
+        
+        if(b4 == ("O") && b5 == ("O") && b6 == ("O"))
+        {
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
+                    JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore();
+            txtbtn4.setBackground(Color.orange);
+            txtbtn5.setBackground(Color.orange);
+            txtbtn6.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
+        }
+        
+        if(b7 == ("O") && b8 == ("O") && b9 == ("O"))
+        {
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
+                    JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore();
+            txtbtn7.setBackground(Color.orange);
+            txtbtn8.setBackground(Color.orange);
+            txtbtn9.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
+        }
+        
+        if(b1 == ("O") && b4 == ("O") && b7 == ("O"))
+        {
+            JOptionPane.showMessageDialog(this, "Player X Died!\nPlayer O Can proceed to Next Level", "Tic Tac Toe",
+                    JOptionPane.INFORMATION_MESSAGE);
+            oCount++;
+            gameScore();
+            txtbtn1.setBackground(Color.orange);
+            txtbtn4.setBackground(Color.orange);
+            txtbtn7.setBackground(Color.orange);
+            Game game = new Game();
+            game.setVisible(true);
+            dispose();
+        }
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
