@@ -283,11 +283,9 @@ public class Game extends javax.swing.JFrame {
         jLabel_5_1 = new javax.swing.JLabel();
         jButton_PlayAgain = new javax.swing.JButton();
         jLabel_message = new javax.swing.JLabel();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
         jPanel_Start.setBackground(new java.awt.Color(102, 102, 102));
 
         javax.swing.GroupLayout jPanel_StartLayout = new javax.swing.GroupLayout(jPanel_Start);
