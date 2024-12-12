@@ -33,8 +33,7 @@ public class Game extends javax.swing.JFrame {
 //    String footsteps = "\\/image/foot.png";
 //    String cracks = "\\/image/crack.png";
     
-    String footsteps = "/image/foot.png";
-    String cracks = "/image/crack.png";
+  
 
 
     
