@@ -114,6 +114,29 @@ public class Game extends javax.swing.JFrame {
     }
     
       // create a function to get random images
+ public void randomImages()
+    {
+        for(int i = 0; i < labels.length; i++)
+        {
+            // get random images
+            randomImage = list.get(random.nextInt(list.size()));
+            imagesOrder[i][0] = randomImage;
+            
+            // get a different image
+            if(randomImage.equals(footsteps))
+            {
+              imagesOrder[i][1] = cracks;
+            }
+            else
+            {
+                imagesOrder[i][1] = footsteps;
+            }
+            
+            System.out.println(imagesOrder[i][1]);
+            System.out.println(imagesOrder[i][0]);
+            System.out.println("--------------");
+        }
+    }
     
 
     
